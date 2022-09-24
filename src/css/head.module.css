@@ -1,3 +1,45 @@
 .header {
-    background-color: red;
+    padding: 5px 24px;
+    width: 100%;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hamburger {
+    display: flex;
+    align-items: center;
+    height: auto;
+    
+    overflow: hidden;
+}
+
+.youtubeLogo {
+    margin-left: 15px;
+    width: 125px;
+    object-fit: cover;
+}
+
+.searchContainer {
+    border: 1px solid gray;
+    display: flex;
+    align-items: stretch;
+}
+
+.search {
+    padding: 5px;
+    width: 500px;
+    height: inherit;
+}
+
+.searchButton {
+    padding: 3px 15px;
+}
+
+.avatar {
+    display: flex;
+    align-items: center;
 }
