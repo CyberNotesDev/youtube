@@ -8,14 +8,13 @@ import NotificationsOutlinedIcon from "@mui/icons-material/NotificationsOutlined
 import Avatar from "@mui/material/Avatar";
 import Stack from "@mui/material/Stack";
 
-import Av from "./../img/steven-hand.jpg"
+import Av from "./../img/steven-hand.jpg";
 import Youtube from "./../img/youtube.jpg";
 
-export function Header() {
+export default function Header() {
   return (
     <header className={styles.header}>
       <nav className={styles.nav}>
-
         <div className={styles.hamburger}>
           <MenuIcon sx={{ fontSize: 35 }} />
           <img className={styles.youtubeLogo} src={Youtube} alt="Youtube" />
@@ -30,8 +29,10 @@ export function Header() {
 
         <Stack direction="row" alignItems="center" spacing={3}>
           <VideoCallOutlinedIcon sx={{ fontSize: 30 }} />
-          <NotificationsOutlinedIcon  sx={{ fontSize: 30 }} />
-          <Avatar src={Av} alt="SpaceLess" sx={{ width: 35, height: 35 }}>Eli</Avatar>
+          <NotificationsOutlinedIcon sx={{ fontSize: 30 }} />
+          <Avatar src={Av} alt="SpaceLess" sx={{ width: 35, height: 35 }}>
+            Eli
+          </Avatar>
         </Stack>
       </nav>
     </header>
