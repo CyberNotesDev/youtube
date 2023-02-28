@@ -3,12 +3,12 @@ import styles from "./../css/linkIcon.module.css";
 
 const LinkIcon = ({icon, title}) => {
     return (
-        <div styles={styles.asideLink}>
+        <div className={styles.asideLink}>
             <div>
-            {icon}
+             {icon}
             </div>
             <div>
-            {title}
+             {title}
             </div>
         </div>
     );

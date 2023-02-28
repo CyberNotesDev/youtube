@@ -12,7 +12,7 @@ import Av from "./../img/steven-hand.jpg";
 import Youtube from "./../img/youtube.jpg";
 import MicIcon from '@mui/icons-material/Mic';
 
-export default function Header() {
+const Header = () => {
   return (
     <header className={styles.header}>
       <nav className={styles.nav}>
@@ -43,3 +43,5 @@ export default function Header() {
     </header>
   );
 }
+
+export default Header;
