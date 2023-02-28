@@ -1,11 +1,12 @@
 import Video from "./Video";
+import Aside from "./Aside";
+
 export default function Main() {
   return (
-    <section>
+    <main className="main">
+      <Aside />
+
       <Video />
-      <Video />
-      <Video />
-      <Video />
-    </section>
+    </main>
   );
 }

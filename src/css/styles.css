@@ -8,3 +8,12 @@ body {
     font-family: Roboto, "sans-serif", Arial;
     font-size: 18px;
 }
+
+.main {
+    display: flex;
+}
+
+.aside {
+    padding: 15px;
+    width: 10%;
+}

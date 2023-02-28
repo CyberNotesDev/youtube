@@ -10,6 +10,7 @@ import Stack from "@mui/material/Stack";
 
 import Av from "./../img/steven-hand.jpg";
 import Youtube from "./../img/youtube.jpg";
+import MicIcon from '@mui/icons-material/Mic';
 
 export default function Header() {
   return (
@@ -25,6 +26,7 @@ export default function Header() {
           <button className={styles.searchButton}>
             <SearchIcon sx={{ fontSize: 25 }} />
           </button>
+          <MicIcon />
         </div>
 
         <Stack direction="row" alignItems="center" spacing={3}>
