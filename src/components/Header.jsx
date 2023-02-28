@@ -17,21 +17,24 @@ export default function Header() {
     <header className={styles.header}>
       <nav className={styles.nav}>
         <div className={styles.hamburger}>
-          <MenuIcon sx={{ fontSize: 35 }} />
+          <MenuIcon sx={{ fontSize: 35, stroke: "#ffffff", strokeWidth: 1 }} />
           <img className={styles.youtubeLogo} src={Youtube} alt="Youtube" />
         </div>
 
         <div className={styles.searchContainer}>
           <input className={styles.search} type="search" placeholder="Search" />
+          
           <button className={styles.searchButton}>
-            <SearchIcon sx={{ fontSize: 25 }} />
+            <SearchIcon sx={{ fontSize: 25, stroke: "#ffffff", strokeWidth: 1}} />
           </button>
-          <MicIcon />
+          <div className={styles.mic}>
+            <MicIcon />
+          </div>
         </div>
 
         <Stack direction="row" alignItems="center" spacing={3}>
-          <VideoCallOutlinedIcon sx={{ fontSize: 30 }} />
-          <NotificationsOutlinedIcon sx={{ fontSize: 30 }} />
+          <VideoCallOutlinedIcon sx={{ fontSize: 30, stroke: "#ffffff", strokeWidth: 1 }} />
+          <NotificationsOutlinedIcon sx={{ fontSize: 30, stroke: "#ffffff", strokeWidth: 1 }} />
           <Avatar src={Av} alt="SpaceLess" sx={{ width: 35, height: 35 }}>
             Eli
           </Avatar>

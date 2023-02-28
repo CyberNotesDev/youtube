@@ -24,19 +24,34 @@
 }
 
 .searchContainer {
-    border: 1px solid gray;
     display: flex;
     align-items: stretch;
 }
 
 .search {
-    padding: 5px;
+    border: 1px solid #c9c9c9;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    font-size: 18px;
+
     width: 500px;
     height: inherit;
+    padding: 5px 5px 5px 15px;
 }
 
 .searchButton {
+    background-color: #f9f9f9;
+    border: 1px solid #c9c9c9;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+
     padding: 3px 15px;
+}
+
+.mic {
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
 }
 
 .avatar {

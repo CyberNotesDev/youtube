@@ -15,5 +15,5 @@ body {
 
 .aside {
     padding: 15px;
-    width: 10%;
+    max-width: 200px;
 }
